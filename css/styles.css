@@ -222,6 +222,18 @@ color: var(--main-text-color);
   margin-right: 0px;
 }
 
+.hero-card {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  background-color: var(--main-font);
+
+}
+
 /* about us*/
   
 .about-title {
