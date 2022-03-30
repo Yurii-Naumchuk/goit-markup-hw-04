@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+     <!--основні шрифти-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Tangerine&display=swap" rel="stylesheet">
+     <!--кастомні стилі-->
+     <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+    <body>
+        <!--Шапка-->
+        <header>
+            <div class="container header-container">
+                <!--навігація сторінки-->
+                <nav class="header-nav">
+                    <a class="logo-header link" href="./index.html"> <span class="logo-akcent">Web</span>Studio</a>
+                    <ul class="nav-list list">
+                        <li class="nav-item"><a class="link current" href="./index.html">Студия</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+                <!--контакти-->
+                <ul class="contact-nav list">
+                    <a class="contact-nav-item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="contact-nav-item link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </ul>
+            </div>
+        </header>
+        <!--Основний контент сторінки-->
+        <main>
+             <!--Замовити послугу-->
+             <section class="order">
+                <div class="container order-container">
+                     <h1 class="order-title" >Эффективные решения для вашего бизнеса</h1>
+                     <button class="order-btn" type="button">Заказать услугу</button>
+                </div>
+             </section>
+            <!--Наші переваги-->
+            <section class="section-hero">
+                <div class="container"> 
+                    <h2 hidden>Преемущества компании</h2>
+                    <ul class="hero-list list">
+                        <li class="hero-item"><h3 class="hero-title">Внимание к деталям</h3><p class="hero-text"> Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
+                        <li class="hero-item"><h3 class="hero-title">Пунктуальность</h3><p class="hero-text"> Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
+                        <li class="hero-item"><h3 class="hero-title">Планирование</h3><p class="hero-text"> Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
+                        <li class="hero-item"><h3 class="hero-title">Современные технологии</h3><p class="hero-text"> Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
+                    </ul>
+                </div>
+            </section> 
+            <!--Чим ми займаємось-->
+            <section class="section">
+                <div class="container">
+                    <h2 class="about-title">Чем мы занимаемся</h2>
+                         <ul class="about-list list">
+                            <li class="about-item"> 
+                                <img class="about-img"  src="./images/img-1.jpg" alt="Человек работают за компьютером, в редакторе HTML" width="370" height="294">
+                            </li>
+                            <li class="about-item"> 
+                                <img class="about-img" src="./images/img-2.jpg" alt="Человек с телефоном в руках возле ноутбука" width="370" height="294">
+                            </li>
+                            <li class="about-item"> 
+                                <img class="about-img" src="./images/img-3.jpg" alt="Человек с планшетом в руках, выбирает цвет" width="370" height="294">
+                             </li>
+                        </ul>
+                </div>
+            </section>
+            <!--Наша команда-->
+            <section class="comand section">
+                <div class="container">
+                    <h2 class="comand-title" >Наша команда</h2>
+                        <ul class="comand-list list">
+                            <li class="comand-item">
+                                <img class="comand-img" src="./images/img-4.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                                <div class="comand-base"><h3 class="comand-subtitle">Игорь Демьяненко</h3>
+                                    <p  class="comand-text" lang="en">Product Designer</p></div>
+                            </li>
+                            <li class="comand-item">
+                                <img class="comand-img" src="./images/img-5.jpg" alt="Ольга Репина" width="270" height="260">
+                                <div class="comand-base"><h3 class="comand-subtitle">Ольга Репина</h3>
+                                    <p class="comand-text" lang="en">Frontend Developer</p></div>
+                            </li>
+                            <li class="comand-item">
+                                <img class="comand-img" src="./images/img-6.jpg" alt="Николай Тарасов" width="270" height="260">
+                                <div class="comand-base"><h3 class="comand-subtitle">Николай Тарасов</h3>
+                                    <p class="comand-text" lang="en">Marketing</p></div>
+                            </li>
+                            <li class="comand-item">
+                                <img class="comand-img" src="./images/img-7.jpg" alt="Михаил Ермаков" width="270" height="260">
+                                <div class="comand-base"><h3 class="comand-subtitle">Михаил Ермаков</h3>
+                                    <p class="comand-text" lang="en">UI Designer</p></div>
+                            </li>
+                         </ul>
+                </div>
+            </section>
+        </main>
+        <!-- Підвальчик-->
+           <footer class="footer">
+                <div class="container footer-container"> 
+                    <a class="logo-footer link" href="./index.html"> <span class="logo-akcent">Web</span>Studio</a>
+                    <address class="address">
+                        <ul class="address-list list">
+                            <li class="address-item"> <a class="address-city link" href="https://goo.gl/maps/BRcKdjN6VGrAt3CW7">г. Киев, пр-т Леси Украинки, 26</a></li>
+                            <li class="address-item"><a class="address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li class="address-item"><a class="address-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+            </footer>
+   </body>
+</html>
