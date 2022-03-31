@@ -249,6 +249,7 @@ color: var(--main-text-color);
   text-align: center;
   border-radius: 3px;
   margin-bottom: 30px;
+  margin-right: 30px;
   background-color: var(--main-font);
 
 }
