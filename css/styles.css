@@ -150,6 +150,9 @@ color: var(--main-text-color);
   margin-right: 0px;
 }
 
+.contact-icon {
+  fill: #757575;
+}
 
 /* order*/
 .order {
