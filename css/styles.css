@@ -152,6 +152,7 @@ color: var(--main-text-color);
 }
 
 .contact-icon {
+  text-align: center;
   fill: #757575;
   margin-right: 10px;
 }
