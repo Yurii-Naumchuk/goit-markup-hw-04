@@ -144,7 +144,7 @@ color: var(--main-text-color);
   margin-left: auto;
 }
 .contact-nav-item {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 .contact-nav-item:last-child {
   margin-right: 0px;
@@ -152,6 +152,11 @@ color: var(--main-text-color);
 
 .contact-icon {
   fill: #757575;
+  margin-right: 10px;
+}
+
+.contact-icon:hover {
+  fill: var(--akcent-color);
 }
 
 /* order*/
