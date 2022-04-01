@@ -145,13 +145,13 @@ color: var(--main-text-color);
   justify-content: center;
   margin-left: auto;
 }
-.contact-nav-item {
+
+.contact-nav>li {
   margin-right: 30px;
 }
-.contact-nav-item:last-child {
+.contact-nav>li:last-child {
   margin-right: 0px;
 }
-
 .contact-icon {
   text-align: center;
   fill: currentColor;
